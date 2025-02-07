@@ -384,3 +384,19 @@ body {
 #oscar-img:focus {
     outline: none;
 }
+
+
+/* Убираем фокус на изображении */
+#oscar-img:focus {
+    outline: none;
+    border: none;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 767px) {
+    /* Убираем фокус с любых кликабельных элементов */
+    a:focus, button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
