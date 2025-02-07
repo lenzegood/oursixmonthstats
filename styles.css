@@ -380,3 +380,7 @@ body {
     padding: 50px 0;
     color: white;
 }
+
+#oscar-img:focus {
+    outline: none;
+}
