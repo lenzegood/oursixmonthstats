@@ -284,9 +284,11 @@ body {
 .oscar-container {
     position: relative;
     width: 300px;
-    height: 300px;
+	top: 50%; /* Центрируем контейнер */
+    height: 300px; /* Задайте высоту контейнера */
     margin: 0 auto;
 }
+
 
 .oscar {
     width: 100px;
@@ -294,10 +296,15 @@ body {
     transition: transform 0.3s;
 }
 
+.oscar:hover {
+    transform: scale(1.1);
+}
+
 #hug-counter {
     font-size: 1.5em;
     margin-top: 15px;
     color: var(--gold);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
 .heart-emoji {
@@ -327,15 +334,6 @@ body {
     width: 200px; /* Увеличенный размер */
     height: auto;
     cursor: pointer;
-}
-
-h3 {
-    margin-top: 40px; /* Добавь отступ сверху, чтобы текст не накладывался */
-    font-size: 1.2em;
-    color: white;
-    text-align: center;
-}
-
 }
 
 .heart-emoji {
@@ -382,8 +380,3 @@ h3 {
     padding: 50px 0;
     color: white;
 }
-
-#oscar-img:focus {
-    outline: none;
-}
-
