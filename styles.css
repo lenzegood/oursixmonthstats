@@ -287,22 +287,15 @@ body {
     height: 300px;
     margin: 0 auto;
     display: flex;
-    justify-content: center; /* Это поможет центрировать содержимое */
+    justify-content: center; /* Центрирует по горизонтали */
     align-items: center; /* Центрирует по вертикали */
-    top: 50%; /* Центрирует контейнер по вертикали */
-    transform: translateY(-50%); /* Сдвигает на 50% по вертикали для точного центрирования */
+    flex-direction: column; /* Если нужно, чтобы элементы располагались вертикально */
 }
-
-
 
 .oscar {
     width: 100px;
     cursor: pointer;
     transition: transform 0.3s;
-}
-
-.oscar:hover {
-    transform: scale(1.1);
 }
 
 #hug-counter {
@@ -339,6 +332,15 @@ body {
     width: 200px; /* Увеличенный размер */
     height: auto;
     cursor: pointer;
+}
+
+h3 {
+    margin-top: 40px; /* Добавь отступ сверху, чтобы текст не накладывался */
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
 }
 
 .heart-emoji {
