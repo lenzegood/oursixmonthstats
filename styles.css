@@ -283,9 +283,9 @@ body {
 
 .oscar-container {
     position: relative;
-    width: 300px;
+    width: 50px;
 	top: 50%; /* Центрируем контейнер */
-    height: 300px; /* Задайте высоту контейнера */
+    height: 50px; /* Задайте высоту контейнера */
     margin: 0 auto;
 }
 
