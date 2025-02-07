@@ -284,10 +284,15 @@ body {
 .oscar-container {
     position: relative;
     width: 300px;
-	top: 50%; /* Центрируем контейнер */
-    height: 300px; /* Задайте высоту контейнера */
+    height: 300px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Это поможет центрировать содержимое */
+    align-items: center; /* Центрирует по вертикали */
+    top: 50%; /* Центрирует контейнер по вертикали */
+    transform: translateY(-50%); /* Сдвигает на 50% по вертикали для точного центрирования */
 }
+
 
 
 .oscar {
