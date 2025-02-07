@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story 💙</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Timer Section -->
+    <section id="timer" class="section">
+        <h2>We've Been Together For:</h2>
+        <div class="timer-container">
+            <div class="timer-box"><span id="days">0</span> Days</div>
+            <div class="timer-box"><span id="hours">0</span> Hours</div>
+            <div class="timer-box"><span id="minutes">0</span> Minutes</div>
+            <div class="timer-box"><span id="seconds">0</span> Seconds</div>
+        </div>
+    </section>
+
+    <!-- Love Words Section -->
+    <section id="love-words" class="section">
+        <h2>Sweet Words Count 💬</h2>
+        <div class="words-container">
+            <div class="word-box">💖 Babe: <span id="babe-count">968</span></div>
+            <div class="word-box">💕 Sweetie: <span id="honey-count">186</span></div>
+            <div class="word-box">💙 Love: <span id="love-count">591</span></div>
+            <div class="word-box">💞 Dear: <span id="dear-count">145</span></div>
+        </div>
+    </section>
+
+    <!-- Calls Section -->
+    <section id="calls" class="section">
+        <h2>Our Calls 📞</h2>
+        <div class="call-stats">
+            <div class="call-box">🕒 Total Call Time: <span id="total-calls">61.5</span> hours</div>
+            <div class="call-box">⏳ Last Call: <span id="last-call-timer">0d 0h 0m</span></div>
+        </div>
+    </section>
+
+    <!-- Meeting Countdown -->
+    <section id="meeting-countdown" class="section">
+        <h2>Time Until Our Meeting ⏳</h2>
+        <div class="timer-container">
+            <div class="timer-box"><span id="meet-days">0</span> Days</div>
+            <div class="timer-box"><span id="meet-hours">0</span> Hours</div>
+            <div class="timer-box"><span id="meet-minutes">0</span> Minutes</div>
+        </div>
+    </section>
+
+    <!-- Our Song Section -->
+    <section id="song" class="section">
+        <h2>You sing the most in calls 🎶</h2>
+        <div class="song-box">
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193694133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/iiharulynsa" title="HaruLyn" target="_blank" style="color: #cccccc; text-decoration: none;">HaruLyn</a> · <a href="https://soundcloud.com/iiharulynsa/wonder-girls-nobody-english-version" title="Wonder Girls - Nobody (English Version)" target="_blank" style="color: #cccccc; text-decoration: none;">Wonder Girls - Nobody (English Version)</a></div>
+        </div>
+    </section>
+
+    <!-- Distance Graph -->
+    <section id="distance-graph" class="section">
+        <h2>Distance Between Us 📍</h2>
+        <div class="distance-container">
+            <p>Current Distance: <span id="current-distance">7359</span> km</p>
+            <input type="range" id="distance-slider" min="0" max="6" step="1">
+            <div class="slider-labels">
+                <span>Aug</span>
+                <span>Sep</span>
+                <span>Oct</span>
+                <span>Nov</span>
+                <span>Dec</span>
+                <span>Jan</span>
+				<span>Feb</span>
+            </div>
+            <canvas id="distance-chart"></canvas>
+        </div>
+    </section>
+
+    <!-- Favorite Emoji -->
+    <section id="favorite-emoji" class="section">
+        <h2>Most Used Emoji </h2>
+        <div class="emoji-box">😂<div class="emoji-count">Used 1873 times</div></div>
+    </section>
+
+	<section id="oscar" class="section">
+		<h2>Our son Oscar 🧸</h2>
+		<div class="oscar-container">
+			<img src="images/oscar.png" alt="Oscar" id="oscar-img" class="oscar">
+			<div id="hug-counter">Hugs: <span id="hug-count">500</span></div>
+		</div>
+	</section>
+	
+	<section id="secret-message-container" class="section">
+		<h2>if you got this, then deserve prize :)</h2>
+	</section>
+
+
+
+</body>
+</html>
